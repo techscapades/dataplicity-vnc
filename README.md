@@ -11,6 +11,11 @@ You'll have to kill the Xtightvnc process manually
 
 Failed to connect to server (code: 1011, reason: Failed to connect to downstream server)
 
+PREREQUISITES:
+1. download xfce4 using this command:    sudo apt-get install xfce4 -y
+2. change desktop session manager and select "xfce4-session" using this command:    sudo update-alternatives --config x-session-manager
+3. allow non-console users to startx "allowed_users=anybody" in this file:    sudo nano /etc/X11/Xwrapper.config
+
 "run_vnc_server.sh" 
 This script will start a clean vnc session everytime and will force kill the previous one
 
