@@ -1,11 +1,13 @@
 Dataplicty is a wonderful service which allows remote access to your linux machine,
 however one has to fiddle around with the section of viewing the remote desktop
-and following the recommended steps in their FAQs isn't helpful.
+and following the recommended steps in their FAQs isn't helpful. I'm using ubuntu 
+and the VNC only works with XFCE instead of gnome so that has to be installed as a
+prerequisite step.
 
 Thus I created 2 simple shell scripts that will allow their remote desktop service
-to work all the time. It will also stop these error messages: 
+to work all the time and to simplify the entire process. It will also stop these error messages: 
 
-Can't find file /home/{$USER}/.vnc/computer_name_:1.pid
+Can't find file /home/*/.vnc/*:1.pid
 
 You'll have to kill the Xtightvnc process manually 
 
