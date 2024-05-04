@@ -3,9 +3,12 @@ however one has to fiddle around with the section of viewing the remote desktop
 and following the recommended steps in their FAQs isn't helpful.
 
 Thus I created 2 simple shell scripts that will allow their remote desktop service
-to work all the time. It will also stop these error messages: Can't find file /home/{$USER}/.vnc/computer_name_:1.pid
+to work all the time. It will also stop these error messages: 
+
+Can't find file /home/{$USER}/.vnc/computer_name_:1.pid
+
 You'll have to kill the Xtightvnc process manually 
-or
+
 Failed to connect to server (code: 1011, reason: Failed to connect to downstream server)
 
 "run_vnc_server.sh" 
