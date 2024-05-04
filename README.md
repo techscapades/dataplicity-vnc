@@ -12,3 +12,7 @@ This script will start a clean vnc session everytime and will force kill the pre
 
 These bash scripts require sudo privileges, ex: sudo bash run_vnc_server.sh. Dont
 forget to do a sudo chmod 777 filename.sh before running them. 
+
+Finally, you may choose to change the resolution of the VNC desktop by adjusting the 
+parameter in the "run_vnc_server.sh" file, I have it set at 800x600 but you can choose
+something else.
